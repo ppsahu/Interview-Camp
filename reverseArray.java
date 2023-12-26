@@ -1,3 +1,5 @@
+// Given an array, reverse the order of its elements.
+
 public class reverseArray {
     public static int[] reverse(int[] a){
         int start = 0;
