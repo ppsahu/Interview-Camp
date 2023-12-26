@@ -9,6 +9,9 @@
 // [1,3,5,2,6,4,7,8,9] --> [3,5,2,6,4] -  If you sort from indices 1 to 5, 
 // the entire array is sorted.
 
+// time - O(n)
+// space - O(2) ~ O(n)
+
 public class returnSubarray {
     public static int[] findSubarray(int[] a){
         if(a == null || a.length <= 1){
