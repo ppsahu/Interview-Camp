@@ -3,8 +3,8 @@
 // also in non-decreasing order. For example:
 // [-4,-2,-1,0,3,5] -> [0,1,4,9,16,25]
 
-
-
+// time - O(n)
+// space - O(n)
 public class returnSquares {
     public static int[] returnSquare(int[] a){
         int start = 0;
