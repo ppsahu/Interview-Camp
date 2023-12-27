@@ -3,6 +3,9 @@
 // For example:  [1,2,-1,2,-3,2,-5]  -> first 4 elements have the largest sum. 
 // Return (0,3)
 
+// time - O(n)
+// space - O(1)
+
 public class kadanesAlgorithm {
     public static int maxSumSubarray(int[] a){
         if (a.length == 0) {
