@@ -6,7 +6,7 @@
 
 import java.util.HashMap;
 
-public class prefixSums {
+public class prefixSumstoZero {
     public static int[] findSumZero(int[] a){
         if(a == null || a.length == 0){
             return null;
