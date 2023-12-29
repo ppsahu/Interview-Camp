@@ -1,7 +1,7 @@
 // Given a sorted array that can contain duplicates, find the first occurrence of thetarget element. 
 // For example:A = [1,3,4,6,6,6,7] and Target = 6, return index 3.
 
-// time - O(n)
+// time - O(log n)
 // space - O(1)
 
 public class binarySearchWithDup {
@@ -33,7 +33,6 @@ public class binarySearchWithDup {
         }
         else{
             System.out.print("Target element is in index "+ result);
-        }
-        
+        }  
     }
 }
