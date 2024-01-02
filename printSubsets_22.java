@@ -3,6 +3,9 @@
 // For example:Input:​ [1, 2, 3]
 // Output:[] [1] [2] [3] [1, 2] [1, 3] [2, 3] [1, 2, 3]
 
+// time - O(exponential)
+// space - O(n)
+
 public class printSubsets_22 {
     public static void printSubsets(int[] a){
         if(a == null || a.length == 0){
@@ -34,7 +37,7 @@ public class printSubsets_22 {
         System.out.println();
     }
     public static void main(String[] args){
-        int[] inputArray = {4,5,6};
+        int[] inputArray = {3,5,6};
         printSubsets(inputArray);
     }
 }
